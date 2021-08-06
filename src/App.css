@@ -1,0 +1,100 @@
+.bg-secondary{
+    background: linear-gradient(45deg, rgb(87, 88, 92), purple);
+}
+
+.form-control {
+    width: 35%;
+}
+
+.form-group{
+    display: flex;
+}
+
+
+.list-group-item{
+    position: relative;
+}
+
+.yellow_badge{
+    position: absolute;
+    right: 25%;
+    width: 8vw;
+    margin: 0 -40px;
+    background-color: yellow;
+    color: black;
+
+    
+}
+
+.green_badge{
+    position: absolute;
+    right: 2%;
+    width: 8vw;
+    background-color:green;
+    color: black;
+    
+}
+.badge{
+    border: 1px solid rgb(7, 7, 7);
+}
+a:hover{
+    color: black;
+}
+
+@media only screen and (max-width: 785px) {
+    .yellow_badge {
+        position: absolute;
+        left:42vw;
+        font-size: 11px;
+        width: 10vw;
+    }
+    .green_badge{
+        left:50vw; 
+        font-size: 11px;
+        width: 10vw;
+    }
+  }
+  
+
+  @media only screen and (max-width: 550px) {
+    .yellow_badge {
+        position: absolute;
+        left:52vw;
+        font-size: 11px;
+        width: 14vw;
+
+
+    }
+    .green_badge{
+        left:62vw;
+        font-size: 11px;
+        width: 15vw;
+    }
+    a{
+        font-size: 12px;
+    }
+  }
+
+
+
+  input{
+    font-family:'Josefin sans, sans-serif';
+    font-size: 25px;
+  }
+  .btn{
+      width: 14vw;
+  }
+
+#profile{
+    font-size: 11px;
+}
+@media only screen and (max-width: 600px) {
+    .form-control {
+        width: 85%;
+    }
+    .btn {
+        width: 18vw;
+    }
+
+}
+
