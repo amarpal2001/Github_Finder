@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
             <div style={{width:'100vw', backgroundColor:'#85fff7'}}>
                 <ul className="Navbar">
-                <i class="fab fa-github"> <span> Github Finder</span></i>
+                <i class="fab fa-github"> <span> Github Finder Search</span></i>
                 </ul>
             </div>
         </>
