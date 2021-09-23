@@ -14,7 +14,7 @@ class GithubRepos extends Component {
             <>
                 <div className="card">
                     <div className="card-header bg-light text-black">
-                        <h3 style={{fontFamily:"Nunito, sans-serif"}}>Github Repos</h3>
+                        <h3 style={{fontFamily:"Nunito, sans-serif"}}>Github Repos </h3>
                     </div>
                     <div className="card-body">
                         <ul className="list-group">
